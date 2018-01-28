@@ -264,7 +264,8 @@ p, h1, h2, h3, h4, h5, ul, li, input, select, label, iframe {
       -moz-border-radius: 0px;
       -ms-border-radius: 0px;
       border-radius: 0px;
-      margin-top: 0px; }
+      margin-top: 0px;
+      padding: 12px 0px 15px 0px; }
       .mainwrapper .topsection form.namecapturemobile label {
         font-size: 2.2em;
         line-height: 1.3em;
