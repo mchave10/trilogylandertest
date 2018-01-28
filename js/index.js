@@ -57,7 +57,7 @@ $(document).ready(function(){
                 var yPos = -((scrollTop - $backgroundObj.__fgOffset) / $backgroundObj.__speed);
 
                 $backgroundObj.css({
-                    backgroundPosition: '20% ' + yPos + 'px'
+                    backgroundPosition: 'center ' + yPos + 'px'
                 });
             });
         });

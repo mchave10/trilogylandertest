@@ -667,7 +667,7 @@ p,h1,h2,h3,h4,h5,ul,li,input,select,label,iframe{
     }
     .ourstory {
         position:relative; 
-        background-size:cover;
+        background-size:contain;
         background-position:center top;
         display: -ms-flexbox;
         display: -webkit-flex;  
@@ -693,7 +693,7 @@ p,h1,h2,h3,h4,h5,ul,li,input,select,label,iframe{
         .ourstorybg {
             position:absolute;
             background-attachment: fixed; 
-            background-size: cover;
+            background-size: contain;
             width: 100%;
             height: 100%;
             position: absolute;
