@@ -23,7 +23,7 @@ $trilogy-mobilwidth: "only screen and (max-width : 480px)";
     font-size: 2.8em;
     line-height: 1em;
     margin-bottom:40px;
-    font-weight: bold;
+    font-weight: 900;
     width:auto;
     display: inline-block;
     text-align: center;
@@ -154,7 +154,7 @@ body {
                 font-size: 3.8em;
                 line-height: 1.1em;
                 color: $mainTextColor;
-                font-weight: bold;
+                font-weight: 900;
                 margin-top:56px;
                 
                 @media screen and (max-width: 992px) {
@@ -203,7 +203,7 @@ body {
                 h3 {
                     position:relative;
                     font-size: 2em;
-                    font-weight: bold;
+                    font-weight: 900;
                 }
 
                 p {
@@ -238,7 +238,7 @@ body {
             label {
                 font-size: 2.2em;
                 line-height: 1.3em;
-                font-weight: bold;
+                font-weight: 900;
                 
                 @media screen and (max-width: 992px) {
                     font-size:1.6em;
@@ -352,7 +352,7 @@ body {
             label {
                 font-size: 2.2em;
                 line-height: 1.3em;
-                font-weight: bold;
+                font-weight: 900;
                 
                 span {
                     font-size:0.5em;

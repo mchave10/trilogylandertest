@@ -11,7 +11,7 @@
   font-size: 2.8em;
   line-height: 1em;
   margin-bottom: 40px;
-  font-weight: bold;
+  font-weight: 900;
   width: auto;
   display: inline-block;
   text-align: center; }
@@ -111,7 +111,7 @@ body {
         font-size: 3.8em;
         line-height: 1.1em;
         color: #FFFFFF;
-        font-weight: bold;
+        font-weight: 900;
         margin-top: 56px; }
         @media screen and (max-width: 992px) {
           .mainwrapper .topsection .topseccontent h1 {
@@ -148,7 +148,7 @@ body {
         .mainwrapper .topsection .topseccontent .typeofclass h3 {
           position: relative;
           font-size: 2em;
-          font-weight: bold; }
+          font-weight: 900; }
         .mainwrapper .topsection .topseccontent .typeofclass p {
           position: relative;
           font-size: 1.3em;
@@ -173,7 +173,7 @@ body {
       .mainwrapper .topsection form.namecapture label {
         font-size: 2.2em;
         line-height: 1.3em;
-        font-weight: bold; }
+        font-weight: 900; }
         @media screen and (max-width: 992px) {
           .mainwrapper .topsection form.namecapture label {
             font-size: 1.6em; } }
@@ -264,7 +264,7 @@ body {
       .mainwrapper .topsection form.namecapturemobile label {
         font-size: 2.2em;
         line-height: 1.3em;
-        font-weight: bold; }
+        font-weight: 900; }
         .mainwrapper .topsection form.namecapturemobile label span {
           font-size: 0.5em;
           line-height: 1.3em;
