@@ -96,3 +96,13 @@ $(document).ready(function(){
 });    
 
 //Faqs Toggle End
+
+
+//viewport for exact mobile width start
+
+if (screen.width < 480) {
+ document.getElementById("viewport").setAttribute("content", "width=480");
+}
+
+//viewport for exact mobile width end
+
