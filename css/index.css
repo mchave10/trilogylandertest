@@ -11,7 +11,7 @@
   font-size: 2.8em;
   line-height: 1em;
   margin-bottom: 40px;
-  font-weight: 900;
+  font-weight: 700;
   width: auto;
   display: inline-block;
   text-align: center; }
@@ -19,10 +19,14 @@
 body {
   line-height: 21px;
   font-family: "Roboto", sans-serif;
-  color: #000000; }
+  color: #000000;
+  overflow-x: hidden; }
   @media screen and (max-width: 1200px) {
     body {
       font-size: 14px; } }
+
+p, h1, h2, h3, h4, h5, ul, li, input, select, label, iframe {
+  max-height: 999999px; }
 
 .mainwrapper {
   position: relative;
@@ -111,7 +115,7 @@ body {
         font-size: 3.8em;
         line-height: 1.1em;
         color: #FFFFFF;
-        font-weight: 900;
+        font-weight: 700;
         margin-top: 56px; }
         @media screen and (max-width: 992px) {
           .mainwrapper .topsection .topseccontent h1 {
@@ -148,12 +152,12 @@ body {
         .mainwrapper .topsection .topseccontent .typeofclass h3 {
           position: relative;
           font-size: 2em;
-          font-weight: 900; }
+          font-weight: 700; }
         .mainwrapper .topsection .topseccontent .typeofclass p {
           position: relative;
           font-size: 1.3em;
           line-height: 1.5em;
-          font-weight: 100;
+          font-weight: 300;
           padding-bottom: 13px;
           border-bottom: 5px solid #FFFFFF; }
           @media screen and (max-width: 992px) {
@@ -173,7 +177,7 @@ body {
       .mainwrapper .topsection form.namecapture label {
         font-size: 2.2em;
         line-height: 1.3em;
-        font-weight: 900; }
+        font-weight: 700; }
         @media screen and (max-width: 992px) {
           .mainwrapper .topsection form.namecapture label {
             font-size: 1.6em; } }
@@ -264,7 +268,7 @@ body {
       .mainwrapper .topsection form.namecapturemobile label {
         font-size: 2.2em;
         line-height: 1.3em;
-        font-weight: 900; }
+        font-weight: 700; }
         .mainwrapper .topsection form.namecapturemobile label span {
           font-size: 0.5em;
           line-height: 1.3em;
@@ -701,6 +705,9 @@ body {
       @media screen and (max-width: 768px) {
         .mainwrapper footer p {
           text-align: center; } }
+      .mainwrapper footer p strong {
+        font-weight: normal;
+        font-weight: 700; }
     .mainwrapper footer a {
       color: #000000; }
 

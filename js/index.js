@@ -100,7 +100,7 @@ $(document).ready(function(){
 
 //viewport for exact mobile width start
 
-if (screen.width < 480) {
+if (screen.width <= 480) {
  document.getElementById("viewport").setAttribute("content", "width=480");
 }
 
